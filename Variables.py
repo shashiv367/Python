@@ -102,3 +102,12 @@ def test2():
     print(x)
 test1()
 test2()
+
+x=10
+def changed():
+    global x
+    x=20
+    print(x)
+
+changed()
+print(x)
