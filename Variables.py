@@ -111,3 +111,20 @@ def changed():
 
 changed()
 print(x)
+
+x=5
+def test():
+    x=10
+    print(x)
+test()
+print(x)
+
+a=[1,2,3]
+a.append(4)
+print(a)
+
+a=10
+b
+
+print(a == b)
+print(a is b)
