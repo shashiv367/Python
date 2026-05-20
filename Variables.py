@@ -30,8 +30,38 @@ print(x)
 print(y)
 print(z)
 
+x = "Python"
+y = "is"
+z = "awesome"
+print(x, y, z)
+
 name = "Shashi"
 age = "21"
 
 print(name)
 print(age)
+
+x = "hemz"
+y=55
+
+print(x)
+print(y)
+
+a="hello"
+b=13
+c=44.56
+d=True
+e="hey,bye,gm"
+f=5+6j
+g=None
+
+print(type(a))
+print(type(b))
+print(type(c))
+print(type(d))
+print(type(e))
+print(type(f))
+print(type(g))
+
+x=10
+print(x==10)
