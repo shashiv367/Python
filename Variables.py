@@ -124,7 +124,7 @@ a.append(4)
 print(a)
 
 a=10
-b
+b=a
 
 print(a == b)
 print(a is b)
