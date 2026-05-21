@@ -128,3 +128,18 @@ b=a
 
 print(a == b)
 print(a is b)
+
+def fun(x=[]):
+    x.append(1)
+    return x
+print(fun())
+print(fun())
+
+import copy
+a = [[1,2],[3,4]]
+b = copy.deepcopy(a)
+
+a[0][0] = 100
+
+print(b)
+print(a)
